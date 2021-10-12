@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Probook/Documents/AndroidStudioProjects/YoutubePlayer/app/src/main/res/layout/activity_main.xml" value="0.10052083333333334" />
+        <entry key="..\:/Users/Probook/Documents/AndroidStudioProjects/YoutubePlayer/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Probook/Documents/AndroidStudioProjects/YoutubePlayer/app/src/main/res/layout/activity_standalone.xml" value="0.1484375" />
         <entry key="..\:/Users/Probook/Documents/AndroidStudioProjects/YoutubePlayer/app/src/main/res/layout/activity_youtube.xml" value="0.1" />
         <entry key="..\:/Users/Probook/Documents/AndroidStudioProjects/YoutubePlayer/app/src/main/res/layout/test.xml" value="0.16" />
       </map>
