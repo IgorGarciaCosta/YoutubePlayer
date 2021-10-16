@@ -1,5 +1,7 @@
 package com.example.youtubeplayer
 
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +17,8 @@ class StandAloneActivity:AppCompatActivity(), View.OnClickListener {
 
         btnPlayVideo.setOnClickListener(this)
         btnPlaylist.setOnClickListener(this)
+
+        supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.parseColor("#E12A55")))
 
         //btnPlayVideo.setOnClickListener(object: View.OnClickListener{
         //   override fun onClick(p0: View?) {

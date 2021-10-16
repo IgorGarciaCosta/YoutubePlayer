@@ -1,11 +1,13 @@
 package com.example.youtubeplayer
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.IllegalArgumentException
+import androidx.appcompat.app.AppCompatActivity;
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +16,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         btnPlaySingle.setOnClickListener(this)
         btnStandAlone.setOnClickListener(this)
+
+        supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.parseColor("#E12A55")))
+
     }
 
     override fun onClick(view: View?) {
